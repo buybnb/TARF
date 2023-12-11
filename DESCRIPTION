@@ -1,0 +1,21 @@
+Package: TARF
+Type: Package
+Title: A Treeless Absolutely Random Forest
+Version: 1.0.1
+Authors@R: c(person("Ziqiang","Lin",email="linziqiang0314@gmail.com",role=c("aut","cre")),
+            person("Eugene","Laska",email="Eugene.Laska@nyulangone.org",role=c("aut")),
+            person("Carole","Siegel",email="Carole.Siegel@nyulangone.org",role=c("aut"))，
+                        person("Charles","Marmar",email="Charles.Marmar@nyulangone.org",role=c("aut"))) 
+Description: The probabilistic structure corresponding to an ARF is called a Treeless Absolute Random Forest (TARF). With high probability, the algorithm will split units
+whose feature vectors are far apart and keep together units whose feature vectors are similar.
+License: GPL-3
+Encoding: UTF-8
+Imports: randomForest,cluster,ggplot2,RcppHungarian
+RoxygenNote: 7.1.2
+NeedsCompilation: no
+Packaged: 2021-12-31 16:55:49 UTC; linz02
+Author: Ziqiang Lin [aut, cre],
+  Eugene Laska [aut],
+  Carole Siegel [aut],
+  Charles Marmar [aut]
+Maintainer: Ziqiang Lin <linziqiang0314@gmail.com>
